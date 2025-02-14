@@ -30,8 +30,6 @@ document.addEventListener("DOMContentLoaded", function(){
         letter.style.left = position + 'px';
         letter.style.top = newTop + 'px';
 
-        console.log(letter.style.left );
-
         requestAnimationFrame(animateLetter);
     }
 
